@@ -20,6 +20,7 @@
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
+<!-- remote changesdirectlt in github-->>    
 <!--localbranchasdasdasdadasd-->    
 <!--experimentasdasdasdadasd-->    
 <!--dummy-->

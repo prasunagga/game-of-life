@@ -492,17 +492,17 @@
                         <version>2.1</version>
                     </plugin>
                     
-                    <Plugin>
-        <GroupId> org.codehaus.mojo </ groupId>
-        <ArtifactId> cobertura-maven-plugin </ artifactId>
-        <Version> 2.5.1 </ Version>
-        <Configuration>
-          <Formats>
-            <Format> html </Format>
-            <Format> xml </Format>
-          </Format>
-        </Configuration>
-      </Plugin>
+<plugin>
+        <groupId> org.codehaus.mojo </groupId>
+        <artifactId> cobertura-maven-plugin </artifactId>
+        <version> 2.5.1 </version>
+        <configuration>
+          <formats>
+            <format> html </format>
+            <format> xml </format>
+          </format>
+        </configuration>
+      </plugin>
                    
 </plugins>
             </reporting>

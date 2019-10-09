@@ -498,11 +498,11 @@
         <Version> 2.5.1 </ Version>
         <Configuration>
           <Formats>
-            <Size> html </ Format>
-            <Size> xml </ Format>
-          </ Format>
-        </ Configuration>
-      </ Plugin>
+            <Format> html </Format>
+            <Format> xml </Format>
+          </Format>
+        </Configuration>
+      </Plugin>
                    
 </plugins>
             </reporting>

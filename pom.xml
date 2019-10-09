@@ -491,7 +491,20 @@
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
                     </plugin>
-                </plugins>
+                    
+                    <Plugin>
+        <GroupId> org.codehaus.mojo </ groupId>
+        <ArtifactId> cobertura-maven-plugin </ artifactId>
+        <Version> 2.5.1 </ Version>
+        <Configuration>
+          <Formats>
+            <Size> html </ Format>
+            <Size> xml </ Format>
+          </ Format>
+        </ Configuration>
+      </ Plugin>
+                   
+</plugins>
             </reporting>
         </profile>
     </profiles>

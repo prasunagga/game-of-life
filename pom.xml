@@ -500,7 +500,7 @@
           <formats>
             <format> html </format>
             <format> xml </format>
-          </format>
+          </formats>
         </configuration>
       </plugin>
                    

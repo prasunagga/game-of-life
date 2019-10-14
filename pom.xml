@@ -384,13 +384,14 @@
                                 </plugin>
                             </reportPlugins>
                         </configuration>
+                        <!--
                         <dependencies>
                             <dependency>
                                 <groupId>com.wakaleo.gameoflife</groupId>
                                 <artifactId>gameoflife-build</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
-                        </dependencies>
+                        </dependencies> -->
                     </plugin>
                 </plugins>
             </build>

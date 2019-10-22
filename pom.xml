@@ -20,10 +20,7 @@
         <thucydides.version>1.8.4</thucydides.version>
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
-    </properties>
-<!--experimentasdasdasdadasd-->    
-<!--dummy-->
-<!--trying stash localbranchasdasdasdadasd-->    
+    </properties> 
 <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>

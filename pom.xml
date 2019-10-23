@@ -20,6 +20,7 @@
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
+    <!--
 <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
@@ -27,6 +28,7 @@
         <url>http://104.215.137.182:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
+-->
      <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>

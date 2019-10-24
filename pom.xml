@@ -29,6 +29,12 @@
     </snapshotRepository>
 </distributionManagement>
 -->
+    <dependency>
+<groupId>org.sonarsource.scanner.maven</groupId>
+<artifactId>sonar-maven-plugin</artifactId>
+<version>3.2</version>
+</dependency>
+    
      <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
@@ -422,6 +428,20 @@
                 </plugins>
             </build>
         </profile>
+        
+        <profile>
+<id>sonar</id>
+<activation>
+<activeByDefault>true</activeByDefault>
+</activation>
+<properties>
+<!-- Optional URL to server. Default value is http://localhost:9000 -->
+<sonar.host.url>
+http://52.187.169.69:9000
+</sonar.host.url>
+</properties>
+</profile>
+        
         <profile>
             <id>maven2</id>
             <build>

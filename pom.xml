@@ -450,7 +450,7 @@
 <activeByDefault>true</activeByDefault>
 </activation>
 <properties>
-<!-- Optional URL to server. Default value is http://localhost:9000 -->
+<!-- Optional URL to server. Default value is http://localhost:9000sd -->
 <sonar.host.url>
 http://52.163.201.217:9000
 </sonar.host.url>

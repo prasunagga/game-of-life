@@ -452,7 +452,7 @@
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
 <sonar.host.url>
-https://sonarqube-uumhoyvc4v54k.azurewebsites.net
+http://52.163.201.217:9000
 </sonar.host.url>
 </properties>
 </profile>

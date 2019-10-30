@@ -20,7 +20,7 @@
         <jelastic.context>gameoflife</jelastic.context>
         <jelastic.environment>wakaleo</jelastic.environment>
     </properties>
-    <!--
+    <!-- test
 <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>

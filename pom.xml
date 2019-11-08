@@ -37,6 +37,19 @@
 </dependency>
 -->
     
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jenkinssoutheastvm-releases</name>
+        <url>http://104.215.137.182:8081/artifactory/demoProject</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jenkinssoutheastvm-snapshots</name>
+        <url>http://104.215.137.182:8081/artifactory/demoProject</url>
+    </snapshotRepository>
+</distributionManagement>
+    
      <scm>
         <connection>scm:git:git@github.com:${github.account}/game-of-life.git</connection>
         <developerConnection>scm:git:git@github.com:${github.account}/game-of-life.git</developerConnection>
